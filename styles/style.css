@@ -363,18 +363,15 @@ body {
     margin-top: 150px;
     font-family: "Cooper";
     width: 1280px;
-
 }
 
 .chefDes {
-
     width: 500px;
 }
 
 .chefDes h1 {
     font-size: 50px;
     margin-bottom: 20px;
-
 }
 
 .chefDes p {
@@ -393,7 +390,6 @@ body {
     margin-top: 40px;
     cursor: pointer;
     -webkit-transition-duration: 0.4s;
-    /* Safari */
     transition-duration: 0.4s;
 }
 
@@ -411,7 +407,6 @@ body {
     margin-right: 20px;
     cursor: pointer;
     -webkit-transition-duration: 0.4s;
-    /* Safari */
     transition-duration: 0.4s;
 }
 
@@ -420,7 +415,6 @@ body {
 }
 
 .chefContainer .circle2 {
-
     background: rgb(252, 92, 60);
     border-radius: 50%;
     width: 400px;
@@ -445,6 +439,7 @@ body {
 }
 
 /* testimonial */
+
 #testimonial {
     margin-top: 150px;
     background-color: #F0F0F0;
@@ -473,7 +468,6 @@ body {
     width: 1280px;
     margin: auto;
     margin-top: 20px;
-    /* padding: 12% 0; */
 }
 
 .content {
@@ -485,7 +479,6 @@ body {
 }
 
 .image-area {
-
     position: relative;
     overflow: hidden;
     width: 100px;
@@ -552,7 +545,6 @@ body {
 }
 
 #newsLetter .bg-img {
-
     background-image: url('../images/bar-826688_1280.jpg');
     width: 1300px;
     height: 400px;
@@ -560,28 +552,20 @@ body {
     margin-right: auto;
     border-radius: 50px;
     opacity: 0.8;
-
-
 }
 
 #newsLetter .newsLetter-text {
     text-align: center;
     color: white;
     padding: 100px;
-
 }
 
-
 #newsLetter h1 {
-
     font-family: "Cooper";
     font-size: 40px;
-
-
 }
 
 #newsLetter input {
-
     margin-top: 50px;
     border: none;
     border-radius: 20px;
@@ -589,12 +573,9 @@ body {
     padding: 15px;
     width: 500px;
     position: relative;
-
-
 }
 
 #newsLetter .newsLetter-text button {
-
     background-color: #ff5e00;
     padding: 10px;
     border: none;
@@ -607,7 +588,6 @@ body {
 /* footer */
 
 footer {
-
     padding: 50px;
 }
 
@@ -619,18 +599,6 @@ footer {
     margin-bottom: 30px;
 }
 
-
-/* .footer-heading h2 {
-    font-family: "Roboto";
-    font-weight: 100;
-    margin-bottom: 20px;
-    color: black;
-} */
-
-/* .footer-logo {
-    color: black !important
-} */
-
 .footer-heading p {
     margin-top: 10px;
     width: 500px;
@@ -638,18 +606,12 @@ footer {
     margin-bottom: 20px
 }
 
-
-
 .footer-bottom h2 {
     margin-bottom: 20px;
     font-size: 15px;
-
-
-
 }
 
 .time-footer .time {
-
     display: flex;
     gap: 15px;
     font-size: 12px;
@@ -657,7 +619,6 @@ footer {
     color: gray;
     font-weight: 100;
     line-height: 25px;
-
 }
 
 .time h3 {
@@ -665,16 +626,10 @@ footer {
 }
 
 .footer-nav h3 {
-
-
     font-family: "Roboto";
     font-size: 9;
     font-style: bold;
     margin-bottom: 15px;
-
-
-
-
 }
 
 .footer-nav li {
@@ -683,7 +638,11 @@ footer {
     line-height: 30px;
     color: gray;
     font-size: 14px;
+}
 
+.footer-flex {
+    display: flex;
+    gap: 150px;
 }
 
 hr .hr {
@@ -794,7 +753,6 @@ hr .hr {
     }
 
     .banner3 img {
-        /* transform: rotate(20deg); */
         width: 300px;
         padding: 0;
         margin: auto;
@@ -813,7 +771,6 @@ hr .hr {
     }
 
     #newsLetter .bg-img {
-
         background-image: url('../images/bar-826688_1280.jpg');
         width: 500px;
         height: 400px;
@@ -821,8 +778,43 @@ hr .hr {
         margin-right: auto;
         border-radius: 50px;
         opacity: 0.8;
-    
-    
+    }
+
+    .footer-body {
+        width: 576px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .footer-flex {
+        display: flex;
+        gap: 150px;
+    }
+
+    footer {
+        width: 576px;
+        padding: 0;
+    }
+
+    #newsLetter h1 {
+        font-family: "Cooper";
+        font-size: 30px;
+    }
+
+    #newsLetter input {
+        margin-top: 50px;
+        outline: none;
+        width: 250px;
+    }
+
+    #newsLetter .newsLetter-text button {
+        color: white;
+        position: relative;
+        right: -10px;
+        margin-top: 10px;
     }
 
 }
